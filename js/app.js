@@ -1,4 +1,4 @@
-import { gsap } from 'gsap'
+// import { gsap } from 'gsap'
 
 const tl = gsap.timeline({
   repeat: -1,
