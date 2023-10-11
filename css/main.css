@@ -32,9 +32,6 @@ body {
   background-color: var(--bg);
   margin: 0;
   overflow: hidden;
-  background: linear-gradient(160deg, #2e8b74 0%, rgba(4, 16, 13, 0.95) 50%, black 80%);
-  background-size: 200% 100%;
-  background-position: 50% 0%;
 }
 
 a {

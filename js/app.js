@@ -39,9 +39,9 @@ let mOut = true
 
 function mouseDown() {
   mOut = false
-  gsap.to('body', 2, {
-    backgroundPosition: '100% 0%',
-  })
+  // gsap.to('body', 2, {
+  //   backgroundPosition: '100% 0%',
+  // })
   setInterval(() => {
     aimX += 0.5
   }, 50)
@@ -62,9 +62,9 @@ function mouseDown() {
 
 function mouseOut() {
   mOut = true
-  gsap.to('body', 2, {
-    backgroundPosition: '50% 0%',
-  })
+  // gsap.to('body', 2, {
+  //   backgroundPosition: '50% 0%',
+  // })
   t2.add('end')
 
   tl.timeScale(1)
